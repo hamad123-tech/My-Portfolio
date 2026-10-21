@@ -1,0 +1,182 @@
+/* Basic Global Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffdf9; /* Warm off-white background */
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Clear Float Helper */
+.clear {
+    clear: both;
+}
+
+/* Header & Navigation */
+.header {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-bottom: 3px solid #d4af37; /* Golden border */
+}
+
+.logo {
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    color: #f39c12; /* Golden logo text */
+}
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.nav a:hover {
+    color: #d4af37; /* Golden hover */
+    text-decoration: underline;
+}
+
+/* Main Container */
+.container {
+    width: 85%;
+    margin: 20px auto;
+}
+
+/* Section Styling */
+.section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #e6decb; /* Soft golden-gray border */
+}
+
+.title {
+    color: #1a1a1a;
+    border-bottom: 2px solid #d4af37; /* Golden underline */
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+/* Hero Intro Section (Golden Light Theme) */
+.hero {
+    background-color: #fff9e6; /* Soft golden light background */
+    border: 1px solid #fce8b2; /* Golden border tint */
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    color: #b78103; /* Deep rich gold */
+    margin-bottom: 5px;
+}
+
+.hero h2 {
+    color: #555555;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #d4af37; /* Gold button */
+    color: #1a1a1a;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #b78103; /* Darker gold on hover */
+    color: #ffffff;
+}
+
+/* Basic Half-Width Cards (Using Float) */
+.card {
+    width: 46%;
+    float: left;
+    background-color: #fffdfa;
+    border: 1px solid #e6decb;
+    padding: 15px;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #1a1a1a;
+}
+
+/* Full Width Cards for Experience */
+.card-full {
+    background-color: #fffdfa;
+    border-left: 4px solid #d4af37; /* Gold accent line on left */
+    border-top: 1px solid #e6decb;
+    border-right: 1px solid #e6decb;
+    border-bottom: 1px solid #e6decb;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.card-full h3 {
+    margin: 0;
+    color: #1a1a1a;
+}
+
+.subtitle {
+    color: #8c7a48; /* Muted golden-brown */
+    font-size: 13px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Simple List for Achievements */
+.list {
+    line-height: 1.8;
+    padding-left: 20px;
+}
+
+.list li {
+    margin-bottom: 8px;
+}
+/* Let's Connect Social Links Styling */
+.social-links {
+    margin-top: 15px;
+}
+
+.social-btn {
+    display: inline-block;
+    background-color: #fff9e6;
+    color: #b78103; /* Rich gold text */
+    border: 1px solid #d4af37; /* Golden border */
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.social-btn:hover {
+    background-color: #d4af37; /* Solid gold on hover */
+    color: #ffffff; /* White text on hover */
+}
+/* Footer */
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 14px;
+    border-top: 2px solid #d4af37;
+}
